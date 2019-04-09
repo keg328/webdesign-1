@@ -26,9 +26,10 @@ nav ul{
 }
 
 nav li{
+	font-family: 'Carrois Gothic SC Regular', 'sans-serif'; 
 	display: inline-block;
 	font-size: .8em;
-	font-weight: 600;
+	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	padding-left: 20px;
@@ -55,7 +56,7 @@ nav li a:active{
 
 .section-head{
 	text-align: center;
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 	margin-top: 0;
 } 
 
@@ -64,14 +65,13 @@ nav li a:active{
 	font-size: 1.2em;
 }
 
-/* Hero Image */
+/* Hero image */
 .hero-overlay{
 	position: absolute;
 	top: 136px;
 	height: 550px;
 	width: 940px;
 	z-index: 100;
-	background-image: url("../images/imac.png");
 	background-repeat: no-repeat;
 	background-position: bottom;
 	overflow: visible;
@@ -83,23 +83,15 @@ nav li a:active{
 	overflow: hidden;
 }
 
-img{
-	min-height: 100px;
-}
+
 
 .hero-headline{
 	text-align: center;
 	text-transform: uppercase;
+	color: #FCFCFC;
+	text-shadow: 2px 2px 1px #000000; 
 }
 
-
-
-/* Importance */
-.importance{
-	width: 100%;
-	padding: 120px 0 100px 0;
-	background-color: #ffffff;
-}
 
 /* About Us */
 .about{
@@ -116,34 +108,52 @@ img{
 }
 
 .testimonials img {
-	width: 150px;
+	width: 130px;
+	height: 130px;
 	margin-bottom: 10px;
 	border-radius: 50%;
+	float: center;
 }
 
-/* Culture */
-.culture{
+/* Importance*/
+.introduction{
 	width: 100%;
 	padding: 100px 0;
 	background-color: #efefef;
 }
 
-.culture-box {
+.info-box {
 	background-color: #f8f8f8;
+	height: 520.97px;
+	width: 300px;
 }
 
-.culture-text{
+.info-text{
+	font-family: 'fira sans', 'sans-serif'; 
 	text-align: center;
 	padding: 10px 20px;
+	
 }
 
-.culture-link{
+.info-link{
 	font-size: .7em;
 	letter-spacing: .09em;
 	text-transform: uppercase;
 	font-weight: 900;
+	text-align: center;
 }
 
+.introduction img{
+height: 187.438px;
+width: 300px;
+}
+
+.info-subhead{
+	font-family: 'fira sans', 'sans-serif';
+	text-align: center;
+
+	
+}
 /* Features */
 
 .features{
