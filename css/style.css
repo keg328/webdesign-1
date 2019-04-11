@@ -26,7 +26,7 @@ nav ul{
 }
 
 nav li{
-	font-family: 'Carrois Gothic SC Regular', 'sans-serif'; 
+	font-family: 'Carrois Gothic SC', sans-serif;
 	display: inline-block;
 	font-size: .8em;
 	font-weight: 400;
@@ -92,19 +92,36 @@ nav li a:active{
 	text-shadow: 2px 2px 1px #000000; 
 }
 
-
-/* About Us */
-.about{
-	width: 100%;
-	padding: 100px 0 100px 0;
-	background-color: #efefef;
+.hero-btn{
+	margin: 30px auto;
+	padding: 100px 100px 0 400px;
+	
 }
 
-/* Customer Testimonials */
+.hero-btn a:link{
+	border-radius: 5px;
+	background-color: #dedede;
+	padding: 10px 30px;
+	font-size: .9em;
+	font-weight: 100;
+	text-decoration: none;
+	text-transform: uppercase; 
+	text-align: center; 
+	color: #515255;
+}
+
+/* History */
+.history{
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background-color: #ffffff;
+}
+
+/* Testimonials */
 .testimonials{
 	width: 100%;
 	padding: 100px 0;
-	background-color: #ffffff;
+	background-color: #efefef;
 }
 
 .testimonials img {
@@ -112,11 +129,19 @@ nav li a:active{
 	height: 130px;
 	margin-bottom: 10px;
 	border-radius: 50%;
-	float: center;
+	align-content: center;
+	margin-left: 80px;
 }
 
+.testimonial-text{
+	font-family: 'fira sans', 'sans-serif'; 
+	text-align: center;
+	padding: 10px 20px;
+}
+
+
 /* Importance*/
-.introduction{
+.importance{
 	width: 100%;
 	padding: 100px 0;
 	background-color: #efefef;
@@ -143,25 +168,62 @@ nav li a:active{
 	text-align: center;
 }
 
-.introduction img{
-height: 187.438px;
-width: 300px;
+.importance img{
+	height: 187.438px;
+	width: 300px;
 }
 
 .info-subhead{
 	font-family: 'fira sans', 'sans-serif';
 	text-align: center;
+}
 
+/* Culture */
+.culture{
+	padding: 100px 0;
+	width: 100%;
+	background-color: #efefef;
+}
+
+.culture-box {
+	background-color: #f8f8f8;
+	height: 620.97px;
+	width: 300px;
+}
+
+.culture-subhead{
+	font-family: 'buenard', 'serif';
+	text-align: center;
+	font-size: 1.7em;
+}
+
+.info-text{
+	font-family: 'fira sans', 'sans-serif'; 
+	text-align: center;
+	padding: 10px 20px;
 	
 }
-/* Features */
 
-.features{
+.culture-box img{
+	height: 200px;
+}
+
+
+/* Sites to See */
+
+.sites{
 	width: 100%;
 	padding: 100px 0;
 	background-color: #ffffff;
 }
 
+.sites img{
+	width: 220px;
+	height: 185.48px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	
+}
 .features-subhead{
 	text-align: left;
 	margin-left: 60px;
@@ -193,66 +255,20 @@ width: 300px;
 }
 
 
-/* Memberships */
-.memberships{
+/* Landmarks */
+.landmarks{
 	width: 100%;
 	padding: 100px 0;
-	background-color: #eeeeee;
-}
-
-.membership-free,
-.membership-monthly,
-.membership-yearly{
-	font-size: 2em;
-	color: #ffffff;
-	text-align: center;
-	padding: 20px 0;
-}
-
-.membership-free{
-	background-color: #a3a3a3;
-}
-
-.membership-monthly{
-	background-color: #6e6e6e;
-}
-
-.membership-yearly{
-	background-color: #a3a3a3;
-}
-
-.membership-cost{
-	font-size: 1.2em;
-	color: #000000;
-	font-weight: 900;
-	text-align: center;
-	padding: 10px 0;
-	background-color: #dedede;
-}
-
-.membership-features{
-	text-align: center;
-	padding: 30px 0 20px 0;
-	background-color: #f6f6f6;
+	background-color: #ffffff;
 }
 
 
-.membership-features ul{
-	padding: 0;
-	margin: 0;
-	text-align: center;
-}
 
-.membership-features li{
-	list-style: none outside none;
-	padding: 0 20px 10px 20px;
-}
-
-.membership-btn{
+.btn{
 	margin: 30px auto;
 }
 
-.membership-btn a:link{
+.btn a:link{
 	border-radius: 5px;
 	background-color: #dedede;
 	padding: 10px 30px;
@@ -268,19 +284,23 @@ width: 300px;
 .location{
 	width: 100%;
 	padding: 100px 0;
-	background-color: #ffffff;
+	background-color: #efefef;
 }
 
-location img{
+.location img{
 	margin-bottom: 10px;
 	
 }
 
-/* Contact Us */
-.contact{
+/* Support */
+.support{
 	width: 100%;
 	padding: 100px 0;
-	background-color: #efefef;
+	background-color: #ffffff;
+}
+
+.support img{
+	height: 100%;
 }
 
 .contact-form input[type="text"], 
