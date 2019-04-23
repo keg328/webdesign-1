@@ -26,6 +26,7 @@ nav ul{
 	text-align: right;
 }
 
+
 nav li{
 	font-family: 'Carrois Gothic SC', sans-serif;
 	display: inline-block;
@@ -34,7 +35,6 @@ nav li{
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	padding-left: 20px;
-	cursor: pointer;
 }
 
 nav li a:link{
@@ -48,7 +48,7 @@ nav li a:visited{
 
 nav li a:hover{
 	color: #ff6600;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 nav li a:active{
@@ -69,20 +69,21 @@ nav li a:active{
 /* Hero image */
 .hero-overlay{
 	position: absolute;
-	top: 136px;
+	top: 236px;
 	height: 550px;
 	width: 940px;
 	z-index: 100;
 	background-repeat: no-repeat;
 	background-position: bottom;
 	overflow: visible;
+	margin-left: -300px;
 }
 
 .hero-image{
 	width: 100%;
-	max-height: 580px;
+	max-height: 980px;
 	overflow: hidden;
-}
+	}
 
 
 
@@ -143,11 +144,11 @@ nav li a:active{
 
 .testimonials img {
 	width: 120px;
-	height: 140px;
+	height: 120px;
 	margin-bottom: 10px;
 	border-radius: 50%;
 	align-content: center;
-	margin-left: 80px;
+	margin-left: 85px;
 }
 
 .testimonial-text{
@@ -192,7 +193,7 @@ nav li a:active{
 }
 
 .info-subhead{
-	font-family: 'fira sans', 'sans-serif';
+	font-family: 'Buenard', 'serif';
 	text-align: center;
 }
 
@@ -256,23 +257,6 @@ nav li a:active{
 	text-align: left;
 }
 
-.fa-github,
-.fa-html5,
-.fa-wrench,
-.fa-file-pdf,
-.fa-codepen{
-	color: #696969;
-	font-size: 2.5em;
-	margin-bottom: 10px;
-	margin-top: 20px;
-}
-
-.fa-css3{
-	color: #696969;
-	font-size: 2.3em;
-	margin: 10px;
-	margin-top: 20px;
-}
 
 
 /* Landmarks */
@@ -432,6 +416,18 @@ footer a:active {
 	video{
 		width: 100%
 	}
+	
+}
+
+/* Footer */
+.second{
+	background: rgb(214,196,205);
+    background: linear-gradient(180deg, rgba(214,196,205,1) 0%, rgba(255,218,175,1) 100%);
+	
+}
+
+.second p{
+	color: #888888;
 	
 }
 
