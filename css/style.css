@@ -9,7 +9,7 @@ header{
 	padding: 15px 0 8px 0;
 }
 .logo{
-	width: 100%;
+	width: 350px;
 	height: 35px;
 	float: left;
 	position: fixed;
@@ -196,6 +196,7 @@ nav li a:active{
 .info-subhead{
 	font-family: 'Buenard', 'serif';
 	text-align: center;
+	margin-top: 0;
 }
 
 /* Culture */
@@ -216,6 +217,8 @@ nav li a:active{
 	font-family: 'buenard', 'serif';
 	text-align: center;
 	font-size: 1.7em;
+	margin-top:0;
+	margin-bottom: 20px;
 }
 
 .info-text{
@@ -242,13 +245,11 @@ nav li a:active{
 .sites img{
 	width: 220px;
 	height: 185.48px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	margin-left: 20px;	
 }
 
-.text-overlay{
-	
-}
+
 
 
 .features-subhead{
@@ -334,7 +335,7 @@ nav li a:active{
 }
 
 .support img{
-	height: 100%;
+	height: 350px;
 }
 
 .contact-form input[type="text"], 
@@ -363,7 +364,7 @@ nav li a:active{
 /* Footer */ 
 footer{
 	width: 100%;
-	padding: 90px 0 80px 0;
+	padding: 50px 0 20px 0;
 	text-align: center;
 	background-color: #255A88;
 }
@@ -429,6 +430,7 @@ footer a:active {
 .second{
 	background: rgb(214,196,205);
     background: linear-gradient(180deg, rgba(214,196,205,1) 0%, rgba(255,218,175,1) 100%);
+	padding: 20px 0 0;
 	
 }
 
