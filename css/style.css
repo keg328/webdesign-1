@@ -35,10 +35,11 @@ nav li{
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	padding-left: 20px;
+	cursor: pointer;
 }
 
 nav li a:link{
-	color: #FFFFFF;
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -48,7 +49,7 @@ nav li a:visited{
 
 nav li a:hover{
 	color: #ff6600;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 nav li a:active{
@@ -242,9 +243,14 @@ nav li a:active{
 	width: 220px;
 	height: 185.48px;
 	margin-bottom: 20px;
-	margin-left: 20px;
+	margin-left: 20px;	
+}
+
+.text-overlay{
 	
 }
+
+
 .features-subhead{
 	text-align: left;
 	margin-left: 60px;
