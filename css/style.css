@@ -307,6 +307,70 @@ nav li a:active{
 	color: #ff6600;
 	text-decoration: none;
 }
+.btn1{
+	margin: 55px auto;
+	font-family: 'fira sans', 'sans-serif';
+	
+}
+
+.btn1 a:link{
+	border-radius: 15px;
+	background-color: #B71616;
+	padding: 10px 30px;
+	font-size: .9em;
+	font-weight: 100;
+	text-decoration: none;
+	text-transform: uppercase; 
+	text-align: center; 
+	color: #FFFFFF;
+}
+
+.btn1 a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.btn1 a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+
+.btn1 a:active {
+	color: #ff6600;
+	text-decoration: none;
+}
+.btn2{
+	margin: 55px auto;
+	font-family: 'fira sans', 'sans-serif';
+	
+}
+
+.btn2 a:link{
+	border-radius: 15px;
+	background-color: #B71616;
+	padding: 10px 30px;
+	font-size: .9em;
+	font-weight: 100;
+	text-decoration: none;
+	text-transform: uppercase; 
+	text-align: center; 
+	color: #FFFFFF;
+}
+
+.btn2 a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.btn2 a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+
+.btn2 a:active {
+	color: #ff6600;
+	text-decoration: none;
+}
 	
 /* Locations */
 .location{
