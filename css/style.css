@@ -78,12 +78,14 @@ nav li a:active{
 	background-position: bottom;
 	overflow: visible;
 	margin-left: -300px;
+	
 }
 
 .hero-image{
 	width: 100%;
 	max-height: 980px;
 	overflow: hidden;
+	
 	}
 
 
@@ -93,11 +95,14 @@ nav li a:active{
 	text-transform: uppercase;
 	color: #FCFCFC;
 	text-shadow: 2px 2px 1px #000000; 
+	width: 940px;
+	
 }
 
 .hero-btn{
-	margin: 30px auto;
+	margin: 100px auto;
 	padding: 100px 100px 0 400px;
+	
 }
 
 .hero-btn a:link{
